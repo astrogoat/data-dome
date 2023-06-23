@@ -2,8 +2,8 @@
 
 namespace Astrogoat\DataDome\Settings;
 
-use Illuminate\Validation\Rule;
 use Helix\Lego\Settings\AppSettings;
+use Illuminate\Validation\Rule;
 
 class DataDomeSettings extends AppSettings
 {
