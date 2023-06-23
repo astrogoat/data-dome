@@ -2,11 +2,11 @@
 
 namespace Astrogoat\DataDome;
 
+use Astrogoat\DataDome\Settings\DataDomeSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Astrogoat\DataDome\Settings\DataDomeSettings;
 
 class DataDomeServiceProvider extends PackageServiceProvider
 {
