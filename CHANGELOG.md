@@ -1,1 +1,7 @@
-# ChangelogAll notable changes to `data-dome` will be documented in this file.## 1.0.0 - 202X-XX-XX- initial release
+# Changelog
+
+All notable changes to `data-dome` will be documented in this file.
+
+## 1.0.0 - 2023-06-23
+
+- initial release
