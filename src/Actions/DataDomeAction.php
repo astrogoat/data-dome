@@ -1,14 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton\Actions;
+namespace Astrogoat\DataDome\Actions;
 
 use Helix\Lego\Apps\Actions\Action;
 
-class SkeletonAction extends Action
+class DataDomeAction extends Action
 {
     public static function actionName(): string
     {
-        return 'Skeleton action name';
+        return 'DataDome action name';
     }
 
     public static function run(): mixed

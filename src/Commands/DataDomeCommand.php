@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Astrogoat\DataDome\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DataDomeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'data-dome';
 
     public $description = 'My command';
 

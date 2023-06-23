@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Settings;
+namespace Astrogoat\DataDome\Settings;
 
 use Helix\Lego\Settings\AppSettings;
 use Illuminate\Validation\Rule;
-use VendorName\Skeleton\Actions\SkeletonAction;
+use Astrogoat\DataDome\Actions\DataDomeAction;
 
-class SkeletonSettings extends AppSettings
+class DataDomeSettings extends AppSettings
 {
     // public string $url;
 
@@ -18,7 +18,7 @@ class SkeletonSettings extends AppSettings
     }
 
     // protected static array $actions = [
-    //     SkeletonAction::class,
+    //     DataDomeAction::class,
     // ];
 
     // public static function encrypted(): array
@@ -28,11 +28,11 @@ class SkeletonSettings extends AppSettings
 
     public function description(): string
     {
-        return 'Interact with Skeleton.';
+        return 'Interact with DataDome.';
     }
 
     public static function group(): string
     {
-        return 'skeleton';
+        return 'data-dome';
     }
 }
