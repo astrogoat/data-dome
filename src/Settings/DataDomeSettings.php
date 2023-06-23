@@ -7,7 +7,7 @@ use Helix\Lego\Settings\AppSettings;
 
 class DataDomeSettings extends AppSettings
 {
-     public string $js_key;
+    public string $js_key;
 
     public function rules(): array
     {
@@ -16,10 +16,10 @@ class DataDomeSettings extends AppSettings
         ];
     }
 
-     public static function encrypted(): array
-     {
-         return ['js_key'];
-     }
+    public static function encrypted(): array
+    {
+        return ['js_key'];
+    }
 
     public function description(): string
     {
