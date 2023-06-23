@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A DataDome app for Strata
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/astrogoat/data-dome.svg?style=flat-square)](https://packagist.org/packages/astrogoat/data-dome)
@@ -15,6 +16,11 @@ This repo can be used to scaffold a Strata CMS App package. Follow these steps t
 ---
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+=======
+# Data Dome
+
+This will enable Data Domes [javascript tags](https://docs.datadome.co/docs/javascript-tag#privacy). Data dome required changes to the hosting service (ie Nginx) See the documentation [here](https://docs.datadome.co/docs).
+>>>>>>> 7e14d74 (initial release)
 
 ## Installation
 
@@ -27,8 +33,8 @@ composer require astrogoat/data-dome
 ## Usage
 
 ```php
-$data-dome = new Astrogoat\DataDome();
-echo $data-dome->echoPhrase('Hello, Astrogoat!');
+$dataDome = new Astrogoat\DataDome();
+echo $dataDome->echoPhrase('Hello, Astrogoat!');
 ```
 
 ## Testing
@@ -51,7 +57,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Brett Michalick](https://github.com/astrogoat)
+
+- [Brett Michalick](https://github.com/bmmage)
 - [All Contributors](../../contributors)
 
 ## License

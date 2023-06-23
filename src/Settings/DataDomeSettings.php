@@ -2,33 +2,28 @@
 
 namespace Astrogoat\DataDome\Settings;
 
-use Astrogoat\DataDome\Actions\DataDomeAction;
-use Helix\Lego\Settings\AppSettings;
 use Illuminate\Validation\Rule;
+use Helix\Lego\Settings\AppSettings;
 
 class DataDomeSettings extends AppSettings
 {
-    // public string $url;
+     public string $js_key;
 
     public function rules(): array
     {
         return [
-            // 'url' => Rule::requiredIf($this->enabled === true),
+             'js_key' => Rule::requiredIf($this->enabled === true),
         ];
     }
 
-    // protected static array $actions = [
-    //     DataDomeAction::class,
-    // ];
-
-    // public static function encrypted(): array
-    // {
-    //     return ['access_token'];
-    // }
+     public static function encrypted(): array
+     {
+         return ['js_key'];
+     }
 
     public function description(): string
     {
-        return 'Interact with DataDome.';
+        return 'Add DataDome Js files.';
     }
 
     public static function group(): string
