@@ -7,14 +7,12 @@ class CreateDataDomeSettings extends SettingsMigration
     public function up(): void
     {
         $this->migrator->add('data-dome.enabled', false);
-        // $this->migrator->add('data-dome.url', '');
-        // $this->migrator->addEncrypted('data-dome.access_token', '');
+        $this->migrator->addEncrypted('data-dome.js_key', '');
     }
 
     public function down()
     {
         $this->migrator->delete('data-dome.enabled');
-        // $this->migrator->delete('data-dome.url');
-        // $this->migrator->delete('data-dome.access_token');
+        $this->migrator->delete('data-dome.js_key');
     }
 }
